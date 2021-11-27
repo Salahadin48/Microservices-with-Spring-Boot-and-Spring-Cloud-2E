@@ -17,6 +17,8 @@ ext {
 
 dependencies {
     implementation platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+    // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-common
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-common', version: '1.5.12'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
