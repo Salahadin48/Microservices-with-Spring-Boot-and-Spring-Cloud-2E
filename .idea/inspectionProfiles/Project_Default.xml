@@ -33,7 +33,7 @@
       </option>
     </inspection_tool>
     <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
-      <shellcheck_settings value="SC2046,SC2086,SC2223" />
+      <shellcheck_settings value="SC2046,SC2086,SC2199,SC2223" />
     </inspection_tool>
   </profile>
 </component>
